@@ -1,0 +1,188 @@
+/* 
+https://getbootstrap.com/docs/5.2/getting-started/introduction/
+https://getbootstrap.com/docs/3.4/css/?#buttons
+https://fontawesome.com/
+https://fontawesome.com/v5/search?q=circle&o=r (v5 text fontawesome)
+*/
+
+
+/**************** General Body ****************/
+
+body {
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.bigHeading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/**************** Navigation Bar ****************/
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.navbar-brand {
+    font-family: ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/**************** Sections ****************/
+.coloredSection {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.whiteSection {
+    background-color: white;
+}
+
+
+/**************** Title ****************/
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+.titleImg {
+    width: 15%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+.downloadButton {
+    margin: 5% 3% 5% 0;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+
+/**************** Features ****************/
+
+#features {
+    position: relative;
+}
+
+#feature h3 {
+    font-size: 1.5rem;
+}
+
+.emoji {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.emoji:hover {
+    color: #ff4c68;
+}
+
+
+/**************** Testimonials and Press *****************/
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+#testimonials h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#testimonials img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+#press img {
+    width: 12%;
+    margin: 20px 20px 50px;
+}
+
+
+/**************** Pricing Plans *****************/
+
+#pricing {
+    padding: 100px;
+}
+
+.pricingCol{
+    padding: 3% 2%;
+}
+
+#pricing h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#pricing h3 {
+    font-size: 1.5rem;
+}
+
+
+/**************** Call To Action *****************/
+
+#cta h3 {
+    color: white;
+}
+
+#cta button {
+    margin: 3% 3% 5% 3%;
+}
+
+
+/**************** Footer *****************/
+#footer {
+    color:#8f8f8f;
+}
+
+.icon{
+    margin: 5% .5% 2%;
+}
+
+/* #footer p {
+    margin-bottom: 5%;
+} */
+
+/**************** Media Query Sizes *****************/
+@media (max-width: 991px /*1080px*/) {
+    #title {
+        text-align: center;
+    }
+
+    .titleImg{
+        position: static;
+        width: 30%;
+        transform: rotate(0);
+    }
+}
